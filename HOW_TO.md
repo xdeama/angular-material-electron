@@ -19,6 +19,11 @@ Replace temporarily custom builders by default ones in `angular.json`
 @angular-builders/custom-webpack:browser => @angular-devkit/build-angular:browser \
 @angular-builders/custom-webpack:dev-server => @angular-devkit/build-angular:dev-server
 
+swap builders to angular
+``` bash
+./swap-angular-builders.sh angular
+``` 
+
 Add Angular Material using `ng add` command:
 
 ``` bash
@@ -37,3 +42,8 @@ Put back custom builders in `angular.json`
 
 @angular-devkit/build-angular:browser => @angular-builders/custom-webpack:browser \
 @angular-devkit/build-angular:dev-server => @angular-builders/custom-webpack:dev-server
+
+swap builders to webpack
+``` bash
+./swap-angular-builders.sh webpack
+```
