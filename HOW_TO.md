@@ -47,3 +47,10 @@ swap builders to webpack
 ``` bash
 ./swap-angular-builders.sh webpack
 ```
+
+# Known Issues
+## npm error: missing @angular/animations
+Resolve npm error:
+```bash
+ng add @angular/animations
+```
