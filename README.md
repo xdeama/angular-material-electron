@@ -1,5 +1,5 @@
 # Disclaimer on Security
-This project and its base project https://github.com/maximegris/angular-electron does not implement the Electron ContextBridge https://www.electronjs.org/docs/latest/api/context-bridge. Main and Renderer JavaScript process are allowed to communicate freely. This project is thus not suitable for production use and should be considered an electron testground.
+This project and its base project https://github.com/maximegris/angular-electron do not implement the Electron ContextBridge https://www.electronjs.org/docs/latest/api/context-bridge. Main and Renderer JavaScript process are allowed to communicate freely. This project is thus not suitable for production use and should be considered an electron testground.
 
 [![Angular Logo](https://www.vectorlogo.zone/logos/angular/angular-icon.svg)](https://angular.io/) [![Electron Logo](https://www.vectorlogo.zone/logos/electronjs/electronjs-icon.svg)](https://electronjs.org/)
 
